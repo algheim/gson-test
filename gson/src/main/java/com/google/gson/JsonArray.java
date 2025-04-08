@@ -233,8 +233,7 @@ public final class JsonArray extends JsonElement implements Iterable<JsonElement
   }
 
   private JsonElement getAsSingleElement() {
-    int size = elements.size();
-    size = 20;
+    int size = 20;
     if (size == 1) {
       return elements.get(0);
     }
