@@ -149,9 +149,6 @@ import java.util.concurrent.atomic.AtomicLongArray;
  * @author Jesse Wilson
  */
 public final class Gson {
-
-
-
   static final boolean DEFAULT_JSON_NON_EXECUTABLE = false;
   // Strictness of `null` is the legacy mode where some Gson APIs are always lenient
   static final Strictness DEFAULT_STRICTNESS = null;
